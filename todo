@@ -1,0 +1,19 @@
+[-] functions
+[-] labels
+[-] variables
+[-] strings
+[-] ints
+[-] structs
+[-] memory management
+[-] tokenization/lexing
+[-] preprocessor
+[-] parsing
+[-] compiling(to x86 asm)
+[-] including files
+[-] stack variables
+[-] operations
+[-] scopes
+[-] jumps
+[-] procedures 
+[-] external linking (ability to use external code)
+[-] stdlib
