@@ -4,7 +4,7 @@
 #define ncmp(a, b) if(!strcmp(a, b))
 #define writef(a, b) write(a, b, sizeof(b))
 int main(int argc, char* argv[]){
-	
+	const char* s="hello from const char string!";	
 	unsigned int args=argc;
 	struct stat fi;
   if(args>1){
@@ -15,6 +15,7 @@ int main(int argc, char* argv[]){
 	fread(fcontent, 1, fsize, fp);
 	char buf[1024];
 	printf("%s", fcontent);
+	// printf("fsize:%d\n", );
 	}
 	else{
 	fprintf(stderr, "file:%s doesnt exist\n", argv[1]);
